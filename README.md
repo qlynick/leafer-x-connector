@@ -1,5 +1,5 @@
 # leafer-x-connector
-![Preview](https://github.com/qlynick/leafer-x-connector/blob/master/playground/assets/preview.gif)
+![Preview](https://github.com/qlynick/leafer-x-connector/blob/main/playground/assets/preview.gif)
 
 | 字段    | 类型               | 默认 | 说明      |
 | --------- | -------------------- | ------ | ----------- |
@@ -10,7 +10,7 @@
 
 ### 名称示意图
 
-![sketch map](https://github.com/qlynick/leafer-x-connector/blob/master/playground/assets/image1.png)
+![sketch map](https://github.com/qlynick/leafer-x-connector/blob/main/playground/assets/image1.png)
 
 #### IQnConnectorOption 属性
 
@@ -40,10 +40,10 @@
 
 * [ ] 添加自定义链接点
 
-  ![IPointData](https://github.com/qlynick/leafer-x-connector/blob/master/playground/assets/image2.png)
+  ![IPointData](https://github.com/qlynick/leafer-x-connector/blob/main/playground/assets/image2.png)
 * [ ] 连线类型样式（`~~default~~`，`straight`，`curve`）
 
-  ![IConnectorType](https://github.com/qlynick/leafer-x-connector/blob/master/playground/assets/image3.png)
+  ![IConnectorType](https://github.com/qlynick/leafer-x-connector/blob/main/playground/assets/image3.png)
 * [X] 箭头自定义
 * [ ] 多边形
 * [ ] PNG透明图片

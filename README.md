@@ -53,7 +53,7 @@
 
 ```js
 import { Leafer, Rect, Ellipse } from 'leafer-ui'
-import { QnConnector } from "leafer-x-connector";
+import { LeaferXQnConnector } from "leafer-x-connector";
 const leafer = new Leafer({ view: window })
  
 
@@ -69,7 +69,7 @@ const rect = new Rect({
     fill: '#323379', 
     draggable: true,
 }) 
-const conn = new QnConnector(elipse,rect) 
+const conn = new LeaferXQnConnector(elipse,rect) 
 
 leafer.add(rect)
 leafer.add(elipse)
@@ -80,7 +80,7 @@ leafer.add(conn)
 
 ```js
 import { Leafer, Rect, Ellipse } from 'leafer-ui'
-import { QnConnector } from "leafer-x-connector";
+import { LeaferXQnConnector } from "leafer-x-connector";
 const leafer = new Leafer({ view: window })
  
 
@@ -96,7 +96,7 @@ const rect = new Rect({
     fill: '#323379', 
     draggable: true,
 }) 
-const conn = new QnConnector(elipse,rect) 
+const conn = new LeaferXQnConnector(elipse,rect) 
 
 leafer.add(rect)
 leafer.add(elipse)

@@ -18,7 +18,7 @@
 | opt2      | ITargetOption                                                                                             |      |                                    |
 | addPoint  | IPointData[]                                                                                              |      | 连线自定义点                       |
 | type      | IConnectorType                                                                                            |      | 连线类型，目前暂时只支持最简单类型 |
-| boundType | IBoundsType                                                                                               |      |                                    |
+| boundType | IBoundsType                                                                                               |  stroke    | 边界类型(继承官网属性)                             |
 | onDraw    | FOnDrowCallback = (param:{<br />  s:IConnectorPoint,<br />  e:IConnectorPoint,<br />  path:string<br />})\=\>string | <br />   | 自定义连线回调函数                 |
 
 
@@ -182,11 +182,24 @@ param::{
       "y": 330
     },
     "angle": 351.0890177921008,
-    "pathPoint": {
+    "pathPoint": {    // 自动补长连线点, (*可能后续这个变量会有变动)
       "x": 475,
       "y": 367.453125
     }
   },
   "path": "M 236.12890625 387.453125 L 236.12890625 367.453125 L 475 367.453125 L 475 330 L 455 330"
 }
+```
+
+### 示例4: Group 操作
+
+```js
+
+group.add(rect)
+group.add(elipse)
+leafer.add(group)
+
+// leafer.add(conn)  *这里不能这么写
+group.add(conn)
+
 ```

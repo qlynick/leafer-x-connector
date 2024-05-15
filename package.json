@@ -39,7 +39,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.49.0",
     "jsdom": "^22.0.0",
-    "leafer-ui": "^1.0.0-rc.21",
+    "leafer-ui": "^1.0.0-rc.22",
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
     "rollup-plugin-livereload": "^2.0.5",
@@ -51,10 +51,10 @@
     "vitest": "^0.34.4"
   },
   "dependencies": {
-    "@leafer-in/arrow": "^1.0.0-rc.21",
-    "@leafer-in/editor": "^1.0.0-rc.21",
-    "@leafer-in/html": "^1.0.0-rc.21",
-    "@leafer-in/state": "^1.0.0-rc.21",
-    "@leafer-ui/core": "^1.0.0-rc.21"
+    "@leafer-in/arrow": "^1.0.0-rc.22",
+    "@leafer-in/editor": "^1.0.0-rc.22",
+    "@leafer-in/html": "^1.0.0-rc.22",
+    "@leafer-in/state": "^1.0.0-rc.22",
+    "@leafer-ui/core": "^1.0.0-rc.22"
   }
 }

@@ -203,3 +203,11 @@ leafer.add(group)
 group.add(conn)
 
 ```
+
+### 连线配置颜色，箭头方式
+连线继承Line对象，所以直接使用Line对象属性配置就行。 包括箭头的设置等
+
+```js
+const connector = new LeaferXQnConnector(a, b)
+connector.stroke = 'rgb(50,205,121)'
+```
